@@ -22,6 +22,7 @@ interface Page {
   accounts: string[];
   status: "open" | "close";
   details?: {
-    createAt:
-  }
+    createAt: Date;
+    updateAt: Date;
+  };
 }
